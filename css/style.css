@@ -54,6 +54,7 @@ aside{
     position: relative;
     float: right;
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 /*--------------------
@@ -86,20 +87,41 @@ aside{
     width: 200px;
     height: 200px;
 }
+
+.playlist{
+    margin-top: 45px;
+}
+
+.playlist-container{
+    margin-left: 20px;
+    display: flex;
+}
+
+.playlist-box{
+    margin-right: 15px;
+    margin-top: 35px;
+}
 /*--------------------
     TYPOGRAPHY
 ---------------------*/
-.recently-played{
+.title-main{
     color: white;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .album-title{
     color: white;
     text-align: center;
+    margin-top: 20px;
 }
 
-.album-subtitle{
+.subtitle-main{
     color: #7d7f84;
     text-align: center;
+    margin-top: 10px;
+}
+
+#playlist-subtitle{
+    text-align: left;
+    margin-left: 20px;
 }
