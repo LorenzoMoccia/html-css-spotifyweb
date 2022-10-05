@@ -11,6 +11,11 @@ body{
     height: 100vh;
 }
 
+main{
+    width: calc(100% - 300px);
+    background-color: #141922;
+}
+
 footer{
     height: 80px;
 }
@@ -26,4 +31,8 @@ aside{
     background-color: black;
 }
 
+.upgrade-container{
+    height: 90px;
+    background-color: rgba(8,11,18, 0.7);
+}
 
