@@ -3,3 +3,27 @@
     margin: 0;
     padding: 0;
 }
+
+/*----------------
+    COMMON
+-----------------*/
+body{
+    height: 100vh;
+}
+
+footer{
+    height: 80px;
+}
+
+.page-container{
+    height: calc(100% - 80px);
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+aside{
+    width: 300px;
+    background-color: black;
+}
+
+
