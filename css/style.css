@@ -69,3 +69,37 @@ aside{
     color: rgb(124,126,131);
     margin-right: 20px;
 }
+
+.album-container{
+    width: 95%;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.album-box{
+    width: 200px;
+    margin-right: 15px;
+}
+
+.album-img{
+    width: 200px;
+    height: 200px;
+}
+/*--------------------
+    TYPOGRAPHY
+---------------------*/
+.recently-played{
+    color: white;
+    margin-left: 30px;
+}
+
+.album-title{
+    color: white;
+    text-align: center;
+}
+
+.album-subtitle{
+    color: #7d7f84;
+    text-align: center;
+}
