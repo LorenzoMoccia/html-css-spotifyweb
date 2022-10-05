@@ -9,11 +9,14 @@
 -----------------*/
 body{
     height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 main{
     width: calc(100% - 300px);
     background-color: #141922;
+    overflow-y: auto;
 }
 
 footer{
@@ -31,8 +34,38 @@ aside{
     background-color: black;
 }
 
+/*--------------------
+    HEADER
+---------------------*/
 .upgrade-container{
     height: 90px;
     background-color: rgba(8,11,18, 0.7);
+    position: fixed;
+    right: 0px;
+    left: 300px;
 }
 
+.upgrade-btn{
+    width: 220px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+}
+
+/*--------------------
+    MAIN
+---------------------*/
+.link-ul{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.link-li{
+    display: inline-block;
+    color: rgb(124,126,131);
+    margin-right: 20px;
+}
