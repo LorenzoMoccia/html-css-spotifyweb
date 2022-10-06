@@ -101,6 +101,34 @@ aside{
     margin-right: 15px;
     margin-top: 35px;
 }
+
+/*--------------------
+    ASIDE
+---------------------*/
+.logo-container{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#logo{
+    width: 150px;
+    height: 60px;
+}
+
+.aside-ul{
+    color: #717171;
+}
+
+.aside-icon{
+    width: 20px;
+    height: 20px;
+}
+
+#home{
+    color: white;
+}
+
+
 /*--------------------
     TYPOGRAPHY
 ---------------------*/
