@@ -21,6 +21,8 @@ main{
 
 footer{
     height: 80px;
+    background-color: #282828;
+    display: flex;
 }
 
 .page-container{
@@ -194,6 +196,24 @@ hr{
     display: flex;
     align-items: center;
     margin-top: 15px;
+}
+
+/*--------------------
+    FOOTER
+---------------------*/
+.col-brano{
+    border: 1px dashed red;
+    width: 15%;
+}
+
+.col-player{
+    border: 1px dashed red;
+    width: 70%;
+}
+
+.col-settings{
+    border: 1px dashed red;
+    width: 15%;
 }
 /*--------------------
     TYPOGRAPHY
