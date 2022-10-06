@@ -203,18 +203,15 @@ hr{
     FOOTER
 ---------------------*/
 .col-brano{
-    border: 1px dashed red;
     width: 15%;
     display: flex;
 }
 
 .col-player{
-    border: 1px dashed red;
     width: 70%;
 }
 
 .col-settings{
-    border: 1px dashed red;
     width: 15%;
 }
 
@@ -276,6 +273,29 @@ hr{
     background-color: white;
     border-radius: 5px;
 }
+
+.col-settings{
+    display: flex;
+}
+
+.mini-player{
+    width: 40%;
+    height: 5px;
+    background-color: #5a5a5a;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.mini-player-duration{
+    height: 5px;
+    width: 20%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
 /*--------------------
     TYPOGRAPHY
 ---------------------*/
