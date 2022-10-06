@@ -32,8 +32,12 @@ footer{
 aside{
     width: 300px;
     background-color: black;
+    position: relative;
 }
 
+.margin-left{
+    margin-left: 20px;
+}
 /*--------------------
     HEADER
 ---------------------*/
@@ -117,8 +121,12 @@ aside{
 
 .aside-ul{
     color: #717171;
+    list-style: none;
 }
 
+.li-nav-aside{
+    margin-top: 15px;
+}
 .aside-icon{
     width: 20px;
     height: 20px;
@@ -138,6 +146,7 @@ aside{
     background-color: #a3a3a3;
     text-align: center;
     font-size: 27px;
+    align-items: center;
 }
 
 .create-playlist-container{
@@ -148,13 +157,44 @@ aside{
     color: #717171;
     margin-top: 5px;
     margin-left: 5px;
+    align-items: center;
 }
 
 .playlist-ul{
     color: #717171;
-    text-decoration: none;
+    list-style: none;
 }
 
+.li-aside{
+    margin-top: 25px;
+}
+
+.aside-bottom-container{
+    position: absolute;
+    bottom: 10px;
+    color: #717171;
+}
+
+hr{
+    width: 190px;
+    margin-top: 5px;
+}
+
+.profile-container{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #808080;
+    background-image: url(../img/profile.svg);
+    background: center contain;
+    margin-right: 5px;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
 /*--------------------
     TYPOGRAPHY
 ---------------------*/
@@ -181,5 +221,14 @@ aside{
 }
 
 .playlist-title{
+    color: white;
+    margin-bottom: 15px;
+}
+
+#download{
+    color: #717171;
+}
+
+.profile-name{
     color: white;
 }
