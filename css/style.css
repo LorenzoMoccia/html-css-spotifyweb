@@ -23,6 +23,7 @@ footer{
     height: 80px;
     background-color: #282828;
     display: flex;
+    align-items: center;
 }
 
 .page-container{
@@ -204,6 +205,7 @@ hr{
 .col-brano{
     border: 1px dashed red;
     width: 15%;
+    display: flex;
 }
 
 .col-player{
@@ -215,6 +217,30 @@ hr{
     border: 1px dashed red;
     width: 15%;
 }
+
+.brano-img-container{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+#brano{
+    width: 40px;
+    height: 40px;
+}
+
+.brano-info-container{
+    margin-left: 15px
+}
+
+.brano-icon-container{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    color: #878787;
+}
+
+
 /*--------------------
     TYPOGRAPHY
 ---------------------*/
@@ -251,4 +277,8 @@ hr{
 
 .profile-name{
     color: white;
+}
+
+.brano-subtitle{
+    color: #878787;
 }
