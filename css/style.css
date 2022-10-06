@@ -83,6 +83,7 @@ aside{
     display: flex;
     margin-top: 35px;
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 
 .album-box{
@@ -365,3 +366,9 @@ small{
     margin-right: 20px;
     margin-left: 20px;
 }
+
+
+
+/*--------------------
+    RESPONSIVE 
+---------------------*/
